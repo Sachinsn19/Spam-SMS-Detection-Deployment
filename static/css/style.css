@@ -1,0 +1,117 @@
+/*===== General Section ===== */
+html {
+  height: 100%;
+  }
+body{
+  color: #112D32;
+  height: 100%;
+}
+h1{
+  text-align: center;
+  font-family: cursive;
+  font-style: normal;
+  font-size: 43px;
+  font-weight: bold;
+}
+
+/*===== Navbar Section ===== */
+nav{
+  background: #E2D784;
+  color: #F6BF4F;
+  width: 100%;
+  z-index: 1;
+}
+.navbar-brand{
+  font-family: "Century Gothic"
+}
+.navbar-brand:hover {
+  text-decoration: solid;
+  font-weight: bold;
+}
+
+/*===== Header Section ===== */
+header
+{
+  
+  background: #254E58;
+}
+/*===== Selection Section ===== */
+section{
+  background: #254E58;
+}
+
+#result-section
+{
+  height: 100%;
+}
+.results {
+  width: 100%;
+  height: 100%;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example {
+  0%   {color:red; left:0%; top:0px;}
+  25%  {color:yellow; left:25%; top:0px;}
+  50%  {color:blue; left:50%; top:0px;}
+  75%  {color:green; left:75%; top:0px;}
+  100% {color:red; left:100%; top:0px;}
+}
+.results .btn-outline{
+  border-color: #112D32;
+  color: #112D32;
+}
+.results .btn-outline:hover{
+  background-color: #112D32;
+  color: #F8F9FA;
+}
+.results h1{
+  font-size: 65px;
+}
+.btn-info{
+  background-color: #FF3B3F;
+  border: #4D774E;
+  font-weight: bold;
+}
+.btn-info:hover {
+  color: #E2D784;
+  text-decoration: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+textarea{
+  border-radius: 10px;
+  border-style: none;
+  color: #FF3B3F;
+}
+textarea::placeholder{
+  padding-left: 10px;
+  color: #FF3B3F;
+  font-size: large;
+}
+
+
+/*===== Footer Section ===== */
+footer {
+  background-color: #254E58;
+  color: #E2D784;
+  height: 80px;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  
+}
+a{ 
+  color: #E2D784;
+  font-size:24px;
+}
+a:hover{
+  color: #ffff;
+}
+
+  
